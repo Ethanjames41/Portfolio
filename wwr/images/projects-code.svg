@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Projects code illustration</title>
+  <desc id="desc">A code editor panel beside a checklist of project planning notes.</desc>
+  <rect width="800" height="500" fill="#eef6ff"/>
+  <rect x="55" y="85" width="430" height="300" rx="24" fill="#1f2937"/>
+  <circle cx="92" cy="118" r="8" fill="#f97316"/>
+  <circle cx="117" cy="118" r="8" fill="#38bdf8"/>
+  <circle cx="142" cy="118" r="8" fill="#cbd5e1"/>
+  <rect x="95" y="160" width="180" height="14" rx="7" fill="#38bdf8"/>
+  <rect x="125" y="195" width="230" height="12" rx="6" fill="#e2e8f0"/>
+  <rect x="155" y="228" width="170" height="12" rx="6" fill="#f97316"/>
+  <rect x="125" y="261" width="250" height="12" rx="6" fill="#e2e8f0"/>
+  <rect x="155" y="294" width="145" height="12" rx="6" fill="#38bdf8"/>
+  <rect x="125" y="327" width="200" height="12" rx="6" fill="#e2e8f0"/>
+  <rect x="540" y="120" width="205" height="265" rx="24" fill="#ffffff" stroke="#94a3b8" stroke-width="8"/>
+  <rect x="575" y="160" width="110" height="18" rx="9" fill="#1f2937"/>
+  <circle cx="585" cy="214" r="12" fill="#38bdf8"/>
+  <rect x="610" y="206" width="95" height="12" rx="6" fill="#64748b"/>
+  <circle cx="585" cy="258" r="12" fill="#f97316"/>
+  <rect x="610" y="250" width="95" height="12" rx="6" fill="#64748b"/>
+  <circle cx="585" cy="302" r="12" fill="#38bdf8"/>
+  <rect x="610" y="294" width="95" height="12" rx="6" fill="#64748b"/>
+</svg>

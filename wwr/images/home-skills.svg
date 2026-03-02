@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Home skills illustration</title>
+  <desc id="desc">Skill badges and project preview cards arranged in a clean portfolio layout.</desc>
+  <rect width="800" height="500" fill="#eef6ff"/>
+  <rect x="45" y="55" width="710" height="80" rx="24" fill="#ffffff"/>
+  <rect x="75" y="85" width="170" height="20" rx="10" fill="#1f2937"/>
+  <rect x="270" y="85" width="110" height="20" rx="10" fill="#38bdf8"/>
+  <rect x="400" y="85" width="110" height="20" rx="10" fill="#f97316"/>
+  <rect x="530" y="85" width="150" height="20" rx="10" fill="#cbd5e1"/>
+  <rect x="55" y="170" width="210" height="265" rx="28" fill="#1f2937"/>
+  <rect x="295" y="170" width="210" height="265" rx="28" fill="#ffffff"/>
+  <rect x="535" y="170" width="210" height="265" rx="28" fill="#ffffff"/>
+  <rect x="85" y="205" width="150" height="16" rx="8" fill="#f8fafc"/>
+  <rect x="85" y="237" width="135" height="12" rx="6" fill="#cbd5e1"/>
+  <rect x="85" y="270" width="90" height="78" rx="16" fill="#38bdf8"/>
+  <rect x="185" y="270" width="50" height="78" rx="16" fill="#f97316"/>
+  <rect x="85" y="368" width="150" height="28" rx="14" fill="#f97316"/>
+  <rect x="325" y="205" width="110" height="16" rx="8" fill="#1f2937"/>
+  <rect x="325" y="236" width="145" height="12" rx="6" fill="#64748b"/>
+  <rect x="325" y="270" width="150" height="90" rx="18" fill="#dbeafe"/>
+  <rect x="325" y="378" width="115" height="24" rx="12" fill="#38bdf8"/>
+  <rect x="565" y="205" width="110" height="16" rx="8" fill="#1f2937"/>
+  <rect x="565" y="236" width="145" height="12" rx="6" fill="#64748b"/>
+  <rect x="565" y="270" width="150" height="90" rx="18" fill="#fed7aa"/>
+  <rect x="565" y="378" width="115" height="24" rx="12" fill="#1f2937"/>
+</svg>

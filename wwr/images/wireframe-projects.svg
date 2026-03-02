@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Projects wireframe</title>
+  <desc id="desc">Simple wireframe with project cards and short supporting notes.</desc>
+  <rect width="800" height="500" fill="#ffffff"/>
+  <rect x="35" y="30" width="730" height="55" fill="#d1d5db"/>
+  <rect x="55" y="110" width="210" height="300" fill="#f3f4f6"/>
+  <rect x="295" y="110" width="210" height="300" fill="#f3f4f6"/>
+  <rect x="535" y="110" width="210" height="300" fill="#f3f4f6"/>
+  <rect x="55" y="430" width="690" height="35" fill="#e5e7eb"/>
+  <text x="400" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#374151">Header / Nav</text>
+  <text x="160" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#374151">Project Card</text>
+  <text x="400" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#374151">Project Card</text>
+  <text x="640" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#374151">Project Card</text>
+  <text x="400" y="452" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#374151">Takeaways / Contact Prompt</text>
+</svg>
