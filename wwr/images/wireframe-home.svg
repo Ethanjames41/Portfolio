@@ -1,13 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
-  <title id="title">Home wireframe</title>
-  <desc id="desc">Simple wireframe showing a header, hero section, and two preview sections.</desc>
-  <rect width="800" height="500" fill="#ffffff"/>
-  <rect x="35" y="30" width="730" height="55" fill="#d1d5db"/>
-  <rect x="55" y="110" width="690" height="120" fill="#e5e7eb"/>
-  <rect x="55" y="255" width="325" height="170" fill="#f3f4f6"/>
-  <rect x="420" y="255" width="325" height="170" fill="#f3f4f6"/>
-  <text x="400" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#374151">Header / Nav</text>
-  <text x="400" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#374151">Intro / Hero</text>
-  <text x="218" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#374151">Skills Preview</text>
-  <text x="582" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#374151">Page Links</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 720" role="img" aria-labelledby="title desc">
+  <title id="title">Home page wireframe</title>
+  <desc id="desc">Wireframe for the portfolio home page showing a shared header, hero area with headline and image, supporting content sections, and a footer.</desc>
+  <rect width="800" height="720" fill="#ffffff"/>
+
+  <rect x="30" y="24" width="740" height="76" rx="12" fill="#dbe4ee" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="54" y="42" width="150" height="40" rx="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <text x="129" y="67" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#334155">Logo</text>
+  <rect x="450" y="42" width="88" height="40" rx="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="548" y="42" width="98" height="40" rx="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="656" y="42" width="88" height="40" rx="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <text x="494" y="67" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">Home</text>
+  <text x="597" y="67" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">About</text>
+  <text x="700" y="67" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">Projects</text>
+
+  <rect x="40" y="126" width="350" height="238" rx="14" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <text x="68" y="168" font-family="Arial, sans-serif" font-size="28" fill="#1f2937">Headline:</text>
+  <text x="68" y="204" font-family="Arial, sans-serif" font-size="28" fill="#1f2937">Building useful, clean websites</text>
+  <rect x="68" y="228" width="280" height="10" rx="5" fill="#cbd5e1"/>
+  <rect x="68" y="248" width="292" height="10" rx="5" fill="#cbd5e1"/>
+  <rect x="68" y="268" width="260" height="10" rx="5" fill="#cbd5e1"/>
+  <rect x="68" y="288" width="300" height="10" rx="5" fill="#cbd5e1"/>
+  <rect x="68" y="320" width="118" height="26" rx="13" fill="#fed7aa" stroke="#f97316" stroke-width="2"/>
+  <text x="127" y="338" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#9a3412">View Projects</text>
+
+  <rect x="420" y="126" width="340" height="238" rx="14" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="454" y="160" width="272" height="170" rx="12" fill="#e2e8f0" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="454" y1="160" x2="726" y2="330" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="726" y1="160" x2="454" y2="330" stroke="#94a3b8" stroke-width="2"/>
+  <text x="590" y="252" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#334155">Hero Image</text>
+
+  <rect x="40" y="394" width="350" height="216" rx="14" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <text x="68" y="434" font-family="Arial, sans-serif" font-size="24" fill="#1f2937">Skills Snapshot</text>
+  <rect x="68" y="454" width="126" height="54" rx="10" fill="#e2e8f0" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="204" y="454" width="126" height="54" rx="10" fill="#e2e8f0" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="68" y="520" width="126" height="54" rx="10" fill="#e2e8f0" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="204" y="520" width="126" height="54" rx="10" fill="#e2e8f0" stroke="#94a3b8" stroke-width="2"/>
+  <text x="131" y="487" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#334155">HTML</text>
+  <text x="267" y="487" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#334155">CSS</text>
+  <text x="131" y="553" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#334155">Layout</text>
+  <text x="267" y="553" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#334155">Planning</text>
+
+  <rect x="420" y="394" width="340" height="216" rx="14" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <text x="448" y="434" font-family="Arial, sans-serif" font-size="24" fill="#1f2937">Page Previews</text>
+  <rect x="448" y="458" width="126" height="86" rx="10" fill="#e2e8f0" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="606" y="458" width="126" height="86" rx="10" fill="#e2e8f0" stroke="#94a3b8" stroke-width="2"/>
+  <text x="511" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">About</text>
+  <text x="511" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#334155">Image + Text</text>
+  <text x="669" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">Projects</text>
+  <text x="669" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#334155">Cards + Links</text>
+  <rect x="448" y="564" width="284" height="10" rx="5" fill="#cbd5e1"/>
+  <rect x="448" y="584" width="252" height="10" rx="5" fill="#cbd5e1"/>
+
+  <rect x="30" y="636" width="740" height="54" rx="12" fill="#dbe4ee" stroke="#94a3b8" stroke-width="2"/>
+  <text x="400" y="669" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#334155">Footer: contact info, copyright, social links</text>
 </svg>
