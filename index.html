@@ -1,40 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ethan James portfolio home page with an introduction, skills snapshot, and links to about and projects pages.">
+    <title>Ethan Portfolio | Home</title>
     <link rel="stylesheet" href="styles/style.css">
-    <title>Ethan's Portfolio</title>
 </head>
-
 <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <div class="site-shell">
+        <header class="site-header">
+            <a class="brand" href="index.html">
+                <img src="wwr/images/ethan-portfolio-logo.svg" alt="Ethan Portfolio logo">
+                <span class="brand-text">
+                    <span class="brand-title">Ethan Portfolio</span>
+                    <span class="brand-subtitle">WDD 130 student portfolio</span>
+                </span>
+            </a>
+            <nav class="site-nav" aria-label="Primary">
+                <a class="active" href="index.html" aria-current="page">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="projects.html">Projects</a>
+            </nav>
+        </header>
 
-    <header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Me</a>
-            <a href="projects.html">Projects</a>
-        </nav>
-    </header>
+        <main id="main-content" class="home-page">
+            <section class="hero" aria-labelledby="home-heading">
+                <div class="hero-copy">
+                    <span class="eyebrow">Student Portfolio</span>
+                    <h1 id="home-heading">I'm Ethan James. I build clean websites and improve them one project at a time.</h1>
+                    <p class="hero-lead"><strong>Site Introduction:</strong> Ethan Portfolio gives visitors a quick, organized introduction to my work as a developing web designer and programmer.</p>
+                    <p>Instead of sending people through class portals or scattered project links, this home page brings my goals, strongest skills, and next steps together in one place. It highlights my focus on clean design, practical problem solving, and steady improvement in HTML, CSS, layout, accessibility, and project organization.</p>
+                    <div class="button-row">
+                        <a class="button-link primary" href="projects.html">See My Work</a>
+                        <a class="button-link secondary" href="about.html">About Ethan</a>
+                    </div>
+                </div>
+                <div class="image-frame">
+                    <img src="wwr/images/home-intro.svg" alt="Portfolio home page concept with profile card and featured work areas">
+                </div>
+            </section>
 
-    <main>
-        <section>
-            <h1>Welcome to My Portfolio</h1>
-            <p>
-                My name is Ethan, and I am a web development student learning HTML and CSS.
-                This website showcases my skills, projects, and progress as I work toward
-                a career in technology.
-            </p>
+            <section class="panel stack home-card" id="skills-snapshot" aria-labelledby="skills-heading">
+                <div>
+                    <h2 class="section-title" id="skills-heading">Skills Snapshot</h2>
+                    <p class="section-lead"><strong>Visitor Questions:</strong> Most visitors want three quick answers right away: who I am, what kind of work I do, and where they should click next. This section gives that snapshot through the skills I rely on most when building class projects.</p>
+                </div>
+                <ul class="skill-list" aria-label="Core web design and development skills">
+                    <li>
+                        <span class="skill-name">HTML</span>
+                        <span class="skill-detail">Semantic structure that keeps pages organized and easy to follow.</span>
+                    </li>
+                    <li>
+                        <span class="skill-name">CSS</span>
+                        <span class="skill-detail">Colors, spacing, and typography that make content readable and polished.</span>
+                    </li>
+                    <li>
+                        <span class="skill-name">Layout</span>
+                        <span class="skill-detail">Grid-based page structure that supports hierarchy and flow.</span>
+                    </li>
+                    <li>
+                        <span class="skill-name">Planning</span>
+                        <span class="skill-detail">Wireframes and revision habits that turn rough ideas into finished pages.</span>
+                    </li>
+                </ul>
+            </section>
 
-            
-        </section>
-    </main>
+            <section class="panel stack home-card" id="page-previews" aria-labelledby="previews-heading">
+                <div>
+                    <h2 class="section-title" id="previews-heading">Page Previews</h2>
+                    <p class="section-lead"><strong>First Impression:</strong> I want the home page to feel professional, approachable, and easy to scan. These preview cards guide visitors toward the pages that show more of my background and project work.</p>
+                </div>
+                <div class="preview-grid">
+                    <article class="preview-card">
+                        <h3>About Me</h3>
+                        <p>Read more about my background, study habits, and the goals that shape how I approach web development work.</p>
+                        <a class="button-link ghost" href="about.html">Open About Page</a>
+                    </article>
+                    <article class="preview-card">
+                        <h3>Projects</h3>
+                        <p>Review featured work, the problems each project addresses, and the design choices behind the final result.</p>
+                        <a class="button-link ghost" href="projects.html">Open Projects Page</a>
+                    </article>
+                </div>
+            </section>
+        </main>
 
-    <footer>
-        <p>© 2026 Ethan</p>
-    </footer>
-
+        <footer class="site-footer">
+            <p>Built for WDD 130 to show my progress in HTML, CSS, layout planning, and page design.</p>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="projects.html">Projects</a>
+                <a href="wwr/siteplan.html">Site Plan</a>
+            </div>
+            <p>&copy; 2026 Ethan James</p>
+        </footer>
+    </div>
 </body>
-
 </html>
